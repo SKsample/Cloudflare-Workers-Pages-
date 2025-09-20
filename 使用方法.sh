@@ -39,7 +39,9 @@ PHP_MEMORY_LIMIT：256M	#PHP内存限制
 BUILD_DIR：public	#构建输出目录
 NODE_VERSION：20	#如果项目需要 Node.js
 COMPOSER_MEMORY_LIMIT：-1	#禁用 Composer 内存限制
-
+ADMIN_USER：your_admin	#管理员用户名
+ADMIN_PASSWORD：secure_password	#管理员密码
+ACCESS_TOKENS：token1,token2	#访问令牌列表
 
 PHP构建处理
 
